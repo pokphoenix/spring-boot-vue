@@ -1,0 +1,458 @@
+{
+	"id": "3fff975b-1b5d-03f3-3082-58f9c585d8ca",
+	"name": "EDS",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "Else",
+			"description": "",
+			"collectionId": "3fff975b-1b5d-03f3-3082-58f9c585d8ca",
+			"order": [
+				"7b2b83ed-75f8-0565-1dbb-ed3c8577135c",
+				"616298f6-f837-529f-0f30-32482d37b34c",
+				"6119e0f4-1a40-afc4-6c6b-a883475b6e20"
+			],
+			"owner": "752074",
+			"folders_order": [],
+			"id": "39c4922c-bc90-cf19-a669-53d9a08af164"
+		},
+		{
+			"name": "Message",
+			"description": "",
+			"collectionId": "3fff975b-1b5d-03f3-3082-58f9c585d8ca",
+			"order": [
+				"6c80699b-59f7-edd3-912d-daa652dc6999",
+				"742cdeff-eb5a-76d9-f905-61da714b962a",
+				"a50044bf-b872-54e9-9288-8e1993a61065",
+				"c57731a2-2e5c-68cc-6ae9-50f544bbd637",
+				"a65d5732-a2e8-3f3e-8fe8-187585d4c5ec"
+			],
+			"owner": "752074",
+			"folders_order": [],
+			"id": "d414888f-668e-25ce-099c-91f6ec5bd3a6"
+		},
+		{
+			"name": "User",
+			"description": "",
+			"collectionId": "3fff975b-1b5d-03f3-3082-58f9c585d8ca",
+			"order": [
+				"5a2d08f6-d414-0d1d-d3e7-cf401d218743",
+				"47fe5e64-1186-2dcf-5db2-c6def20ef154",
+				"21cb8b5b-47db-f9f6-0760-09fa52b5321b",
+				"4c028c1c-5b4c-bad4-57e8-4b6aebf2de02"
+			],
+			"owner": "752074",
+			"folders_order": [],
+			"id": "0724387c-b015-2ca6-f715-6b0bc824aace"
+		}
+	],
+	"folders_order": [
+		"d414888f-668e-25ce-099c-91f6ec5bd3a6",
+		"0724387c-b015-2ca6-f715-6b0bc824aace",
+		"39c4922c-bc90-cf19-a669-53d9a08af164"
+	],
+	"timestamp": 1545985020075,
+	"owner": "752074",
+	"public": false,
+	"requests": [
+		{
+			"id": "21cb8b5b-47db-f9f6-0760-09fa52b5321b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/changepass/10001?token=0ecf549a94861abc74b9086b0a30c974eb25d577fa47f6157808f9f47fdbcff8",
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "0ecf549a94861abc74b9086b0a30c974eb25d577fa47f6157808f9f47fdbcff8",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1547197379963,
+			"name": "UserChangePass",
+			"description": "",
+			"collectionId": "3fff975b-1b5d-03f3-3082-58f9c585d8ca",
+			"responses": [],
+			"rawModeData": "{\n\t\"password\":\"123456\",\n\t\"newPassword\":\"12345\",\n\t\"confirmPassword\":\"12345\"\n}"
+		},
+		{
+			"id": "47fe5e64-1186-2dcf-5db2-c6def20ef154",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/user/10001?token=0ecf549a94861abc74b9086b0a30c974eb25d577fa47f6157808f9f47fdbcff8",
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "0ecf549a94861abc74b9086b0a30c974eb25d577fa47f6157808f9f47fdbcff8",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1547197338498,
+			"name": "UserUpdate",
+			"description": "",
+			"collectionId": "3fff975b-1b5d-03f3-3082-58f9c585d8ca",
+			"responses": [],
+			"rawModeData": "{\n\t\"firstName\":\"pok\",\n\t\"lastName\":\"test\",\n\t\"fullName\":\"pok test\",\n\t\"age\":29,\n\t\"email\":\"pok@mail.com\"\n}"
+		},
+		{
+			"id": "4c028c1c-5b4c-bad4-57e8-4b6aebf2de02",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "3fff975b-1b5d-03f3-3082-58f9c585d8ca",
+			"data": [],
+			"dataMode": "raw",
+			"name": "UserLogin",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1547196418921,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "0724387c-b015-2ca6-f715-6b0bc824aace",
+			"rawModeData": "{\n\t\"email\":\"pok@mail.com\",\n\t\"password\":\"123456\"\n}"
+		},
+		{
+			"id": "5a2d08f6-d414-0d1d-d3e7-cf401d218743",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/user",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "3fff975b-1b5d-03f3-3082-58f9c585d8ca",
+			"data": [],
+			"dataMode": "raw",
+			"name": "UserSingUp",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1547106062109,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "0724387c-b015-2ca6-f715-6b0bc824aace",
+			"rawModeData": "{\n\t\"user\":{\n\t\t\"firstName\":\"poksdfsdfdf\",\n\t\t\"lastName\":\"testsdffsdfdf\",\n\t\t\"fullName\":\"pok test\",\n\t\t\"age\":20,\n\t\t\"email\":\"pok@mail.com\"\n\t},\n\t\"userAddress\":{\n\t\t\"address\":\"bangkok,thailand\"\n\t}\n}"
+		},
+		{
+			"id": "6119e0f4-1a40-afc4-6c6b-a883475b6e20",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/search?page=2&limit=2&sort.order=age&sort.attr=DESC&query=pok",
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "limit",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "sort.order",
+					"value": "age",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "sort.attr",
+					"value": "DESC",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "query",
+					"value": "pok",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "3fff975b-1b5d-03f3-3082-58f9c585d8ca",
+			"data": null,
+			"dataMode": "params",
+			"name": "ExampleDynamicSearchWithPage",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1547106213867,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "39c4922c-bc90-cf19-a669-53d9a08af164"
+		},
+		{
+			"id": "616298f6-f837-529f-0f30-32482d37b34c",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/search?limit=2",
+			"queryParams": [
+				{
+					"key": "limit",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "3fff975b-1b5d-03f3-3082-58f9c585d8ca",
+			"data": null,
+			"dataMode": "params",
+			"name": "ExampleDynamicSearch",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1547106168418,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "39c4922c-bc90-cf19-a669-53d9a08af164"
+		},
+		{
+			"id": "6c80699b-59f7-edd3-912d-daa652dc6999",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/message/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "3fff975b-1b5d-03f3-3082-58f9c585d8ca",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Save",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1545986078244,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "d414888f-668e-25ce-099c-91f6ec5bd3a6",
+			"rawModeData": "{\n\t\"text\":\"pok5\"\n}"
+		},
+		{
+			"id": "742cdeff-eb5a-76d9-f905-61da714b962a",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/message/4",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "3fff975b-1b5d-03f3-3082-58f9c585d8ca",
+			"data": null,
+			"dataMode": "params",
+			"name": "View",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1545988136938,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "d414888f-668e-25ce-099c-91f6ec5bd3a6"
+		},
+		{
+			"id": "7b2b83ed-75f8-0565-1dbb-ed3c8577135c",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/bank",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "3fff975b-1b5d-03f3-3082-58f9c585d8ca",
+			"data": null,
+			"dataMode": "params",
+			"name": "ExampleGeneratePatternId",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1547106140892,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "39c4922c-bc90-cf19-a669-53d9a08af164"
+		},
+		{
+			"id": "a50044bf-b872-54e9-9288-8e1993a61065",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/message/4",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "3fff975b-1b5d-03f3-3082-58f9c585d8ca",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Update",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1545988183995,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "d414888f-668e-25ce-099c-91f6ec5bd3a6",
+			"rawModeData": "{\n\t\"id\" : \"10\" ,\n\t\"text\":\"pok (4)\"\n}"
+		},
+		{
+			"id": "a65d5732-a2e8-3f3e-8fe8-187585d4c5ec",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/message/search/pok",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "3fff975b-1b5d-03f3-3082-58f9c585d8ca",
+			"data": [],
+			"dataMode": "raw",
+			"name": "search",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1546939130503,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "d414888f-668e-25ce-099c-91f6ec5bd3a6",
+			"rawModeData": "{\r\n\"firstName\":\"\",\r\n\"lastName\":\"K\",\r\n\"email\":\"alexk@abc.com\",\r\n\"fullName\":\"pok K\",\r\n\"age\" :30\r\n}"
+		},
+		{
+			"id": "c57731a2-2e5c-68cc-6ae9-50f544bbd637",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/message/4",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "3fff975b-1b5d-03f3-3082-58f9c585d8ca",
+			"data": null,
+			"dataMode": "params",
+			"name": "Delete",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1545988271891,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "d414888f-668e-25ce-099c-91f6ec5bd3a6"
+		}
+	]
+}
